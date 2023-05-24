@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Доставочка</title>
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <header>
+        <div class="hat">
+          <h1> Доставочка </h1>
+          <div class="basket"> <img src="{% static 'main/img/shopping-basket.png' %}"> </div>
+        </div>
+     </header>
+    
+    <main>
+      <div class="fields"> 
+        <h2>Вход</h2>   
+        <input class="rectangle" required placeholder="Логин"></input>
+        <input class="rectangle" required placeholder="Пароль"></input>
+      </div>
+
+      <button>Войти</button>
+
+      <div class="foot">
+        <p>Ещё нет аккаунта?</p>
+        <p><a href="reg.html">Зарегистрироваться</a></p>
+      </div>
+    </main>
+
+    <footer></footer>
+
+  </body>
+</html>
